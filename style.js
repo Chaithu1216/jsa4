@@ -1,7 +1,8 @@
 var w1 = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 const d = new Date("February 24, 1990")
 let wd = d.getDay()
-console.log("Day is Number form: "+ wd)
+console.log("Inputed date is February 24, 1990")
+console.log("Day Logged in Number form: "+ wd)
 console.log("Printing the day using switch")
 switch(wd)
 {
